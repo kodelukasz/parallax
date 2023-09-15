@@ -1,0 +1,50 @@
+<div class="parallax parallax-1"></div>
+
+<div class="content">
+Przykładowy tekst
+</div>
+
+<div class="parallax parallax-2"></div>
+body, html {
+    height: 100%;
+    padding:0;
+    margin:0;
+}
+.parallax{
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display:flex;
+    flex-direction
+    justify-content:center;
+    align-items:center;
+
+
+}
+.parallax-1 {
+    background-image: url(istockphoto-1322641953-2048x2048.jpg)
+    height: 100vh;
+}
+.parallax-2 {
+    background-image: url(istockphoto-1402241822-2048x2048.jpg);
+}
+.content {
+    display: flex
+    
+    background-color:#9daf91;
+    font-size:36px;
+    padding:90px 14%;
+}
+
+    .h1 {
+    background-color: gainsboro;
+    padding: 14px 20px 14px 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 50px;
+
+    }
+    
